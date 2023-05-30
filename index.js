@@ -26,7 +26,7 @@ mongoose.connection.on("disconnected", () =>{
 app.use(cors())
 app.use(express.json());
 
-app.use("/api", urlsRoute)
+app.use("/", urlsRoute)
 app.get('/about', (req, res) => {
   res.send('This is about route')
 })
