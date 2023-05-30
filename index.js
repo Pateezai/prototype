@@ -2,7 +2,6 @@ import express from "express"
 import dotenv from "dotenv"
 import mongoose from "mongoose"
 import urlsRoute from "./routes/urls-route.js"
-import cookieParser from "cookie-parser"
 import cors from "cors"
 
 const app = express()
@@ -26,7 +25,6 @@ mongoose.connection.on("disconnected", () =>{
 // midgard (middleware)
 app.use(cors())
 app.use(express.json());
-app.use(cookieParser())
 
 app.use("/api", urlsRoute)
 app.get('/about', (req, res) => {

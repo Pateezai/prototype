@@ -38,15 +38,6 @@ export const redirectUrl = async (req,res,next)=>{
         next(err);
         }
 
-    // try {
-    //     const url = await Url.findOne({ custom: req.params.custom });
-    //     if (!url) {
-    //       return res.status(404).json({ message: "URL not found" });
-    //     }
-    //     res.redirect(url.original);
-    //   } catch (err) {
-    //     next(err);
-    //   }
 }
 
 
