@@ -1,4 +1,4 @@
-# URL-SHORTENER FRONTEND
+# URL-SHORTENER BACKEND
 
 This repos have been created for fixing the Deploying a backend on Vercel (github.com/Pateezai/Shortener), 
 So I try to split the repo and depolying it Frontend deploy on Vercel, Backend(github.com/Pateezai/prototype) 
